@@ -70,7 +70,9 @@ app.get("/status-info",(req,res)=>{
     "status": code,
     "message": codes[code]
   })
+  res.send(check)
 })
+ 
 
 
 const PORT = 3000;
